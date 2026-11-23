@@ -2,8 +2,28 @@
 
 A small, self-hosted chatbot that answers common **IRCTC / Indian Railways help questions** in short, point-form **English or Hindi**. It retrieves answers from a local knowledge base built only from public IRCTC and Indian Railways help pages, cites the official source pages, and refuses anything outside that scope.
 
-> **Unofficial assistant. Check irctc.co.in for final info.**
-> This project is not affiliated with IRCTC or Indian Railways. It cannot book, cancel or change tickets, and it does not show live PNR, seat, fare or train-running data.
+> **Unofficial assistant. Check irctc.co.in for final info.** This project is not affiliated with IRCTC or Indian Railways. It cannot book, cancel or change tickets, and it does not show live PNR, seat, fare or train-running data.
+
+
+## Screenshots
+
+**English answer with official source links**
+
+![English answer](screenshots/English.png)
+
+**Hindi answer**
+
+![Hindi answer](screenshots/Hindi.png)
+
+**Refuses booking requests (guardrail)**
+
+![Refusal](screenshots/refusal.png)
+
+## Quick start
+
+1. `pip install -r requirements.txt`
+2. `python ingest.py` (builds the search index)
+3. `python app.py`, then open http://localhost:5000
 
 ---
 
