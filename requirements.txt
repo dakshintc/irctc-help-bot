@@ -1,0 +1,12 @@
+flask>=3.0,<4
+faiss-cpu>=1.8,<2
+numpy>=1.24,<3
+sentence-transformers>=2.7,<7
+anthropic>=0.34,<3
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+lxml>=5.0
+pypdf>=4.0,<7
+python-dotenv>=1.0,<2
+PyYAML>=6.0,<7
+pytest>=8.0,<10

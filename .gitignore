@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/index/
+data/raw/*
+!data/raw/.gitkeep
+data/build_info.json
+.venv/
+venv/
+data/test.db
+data/test.db-journal
+data/chroma/
+work/
+pytest-cache-files-*
+
